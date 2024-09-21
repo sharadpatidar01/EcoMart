@@ -1,0 +1,44 @@
+/* ********** Register Page ********** */
+.form_cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    margin: 110px;
+}
+
+.form_cnt form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form_cnt form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.form-cnt form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+.form_cnt form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+}
+
+.form_cnt form button:hover {
+    border: 1px solid black;
+    background: #000000;
+    background: linear-gradient(to right, #434343, #000000);
+    border: none;
+}
