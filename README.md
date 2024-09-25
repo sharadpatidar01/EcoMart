@@ -1,0 +1,208 @@
+# 🛒 EcoMart (E-Commerce Website) 
+
+This project is a fully functional **E-Commerce Website** designed for small business owners. The platform enables users to view, search, and purchase products online while allowing shop owners to manage their products, orders, and customer information. Secure user authentication, product management, and integrated payment methods ensure an optimal user experience.
+
+## 🌐 Live Demo
+
+Check out the live demo here: [EcoMart - Live Demo](https://ecomartindia.vercel.app/)
+
+## 📊 Flowchart Overview
+
+Below are flowcharts depicting the frontend and backend structures, outlining how users interact with the website and how the system handles data:
+
+### Frontend Structure:
+
+```plaintext
+Frontend
+|
+|--- Authentication
+|    |--- Login
+|    |--- Register
+|    |--- Forgot Password
+|
+|--- Product Management
+|    |--- Create Product
+|    |--- Update Product
+|    |--- Delete Product
+|    |--- View Products
+|         |--- Search Products
+|         |--- Filter by Category
+|         |--- Pagination
+|
+|--- Dashboard
+|    |--- Product Overview
+|    |--- Stock Levels
+|    |--- Sales Analysis
+|
+|--- User Interface Components
+     |--- Header
+     |--- Footer
+     |--- Navigation Bar
+     |--- Side Menu
+```
+
+### Backend Structure:
+
+```plaintext
+Backend
+|
+|--- Authentication (JWT)
+|    |--- User Login
+|    |--- User Registration
+|    |--- Password Recovery
+|    |--- Token Validation
+|
+|--- Product Management (CRUD)
+|    |--- Create Product (POST)
+|    |--- Update Product (PUT)
+|    |--- Delete Product (DELETE)
+|    |--- Fetch Products (GET)
+|         |--- Search Products (GET with query)
+|         |--- Filter Products by Category
+|         |--- Paginate Results
+|
+|--- Order Processing
+|    |--- Create Order
+|    |--- Update Order
+|    |--- Cancel Order
+|    |--- Fetch Orders
+|
+|--- User Management
+|    |--- Create User
+|    |--- Update User
+|    |--- Delete User
+|    |--- View User Profile
+```
+
+## 📷 Screenshots
+
+Here are some screenshots that illustrate the journey through the website:
+
+1. **Home Page**  
+   ![Home Page](https://your-url.com/homepage.png)
+
+2. **Register Page**  
+   ![Register Page](https://your-url.com/register.png)
+
+3. **Login Page**  
+   ![Login Page](https://your-url.com/login.png)
+
+4. **Product Page**  
+   ![Product Page](https://your-url.com/product_page.png)
+
+5. **Checkout Page**  
+   ![Checkout Page](https://your-url.com/checkout.png)
+
+6. **Dashboard (Admin)**  
+   ![Admin Dashboard](https://your-url.com/admin_dashboard.png)
+
+## 🛠️ Technologies Used
+
+### Frontend:
+- **React**: Building a responsive and dynamic user interface.
+- **React Router**: For navigation between pages.
+- **Redux Toolkit**: For state management and data sharing between components.
+- **Axios**: For making API requests to the backend.
+- **React Icons**: For adding user-friendly icons.
+- **React Toastify**: For displaying alerts and messages.
+- **React Paginate**: For implementing pagination in product views.
+- **React Quill**: For rich text editing in the admin panel.
+
+### Backend:
+- **Node.js & Express**: For building RESTful APIs and managing server-side logic.
+- **MongoDB**: NoSQL database used to store product, order, and user data.
+- **JWT (JSON Web Token)**: For securing authentication and authorization.
+- **Multer**: For handling file uploads (such as product images).
+- **Cloudinary**: For storing and managing images.
+- **Nodemailer**: To send emails (e.g., for order confirmations or password resets).
+
+## 📥 Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/ecommerce-website.git
+   cd ecommerce-website
+   ```
+
+2. **Install dependencies for both the frontend and backend:**
+
+   ```bash
+   npm install
+   cd client
+   npm install
+   ```
+
+3. **Set up your environment variables:**
+
+   - Create a `.env` file in the root directory.
+   - Add the following keys:
+
+     ```env
+     MONGO_URI=your_mongodb_connection_string
+     JWT_SECRET=your_jwt_secret
+     CLOUDINARY_API_KEY=your_cloudinary_api_key
+     CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+     CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+     EMAIL_USER=your_email_service_username
+     EMAIL_PASS=your_email_service_password
+     ```
+
+4. **Run the application:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Navigate to `http://localhost:3000` to view the website locally.
+
+## 📝 Features
+
+### User-Facing Features:
+- **Product Listings**: Users can browse products, filter by categories, and search using keywords.
+- **Secure Authentication**: JWT-based login and registration for both customers and admins.
+- **Shopping Cart**: Add, remove, and update items in the cart.
+- **Checkout**: Complete orders securely with order summaries and payment processing.
+- **Responsive UI**: Fully responsive design, ensuring the site looks good on mobile and desktop devices.
+
+### Admin Features:
+- **Product Management**: Admins can add, update, and delete products.
+- **Order Management**: View all placed orders, update order statuses, and manage customer information.
+- **Sales Dashboard**: Provides insights into sales trends, stock levels, and top-selling products.
+
+### Other Features:
+- **Image Upload**: Upload product images using Cloudinary.
+- **Email Notifications**: Customers and admins receive email notifications for order updates and password recovery.
+
+## 🛠️ API Endpoints
+
+### Authentication:
+- `POST /api/auth/login`: User login.
+- `POST /api/auth/register`: User registration.
+- `POST /api/auth/forgot-password`: Request password reset.
+
+### Products:
+- `GET /api/products`: Get all products.
+- `POST /api/products`: Add a new product (Admin only).
+- `PUT /api/products/:id`: Update product information (Admin only).
+- `DELETE /api/products/:id`: Delete a product (Admin only).
+
+### Orders:
+- `GET /api/orders`: Get all orders (Admin only).
+- `POST /api/orders`: Place a new order.
+- `PUT /api/orders/:id`: Update order status (Admin only).
+
+## 📧 Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: [patidarsharad01@gmail.com](mailto:patidarsharad01@gmail.com)
+- **LinkedIn**: [Sharad Patidar](https://www.linkedin.com/in/sharadpatidar/)
+
+## 💻 Developer
+
+This project is developed and maintained by **Sharad Patidar**. I am passionate about creating digital solutions that help businesses optimize their operations.
+
+Thank you for checking out this project! I hope it proves useful for managing your inventory. 😊✨
