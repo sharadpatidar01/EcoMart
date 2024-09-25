@@ -2,6 +2,22 @@
 
 This project is a fully functional **E-Commerce Website** designed for small business owners. The platform enables users to view, search, and purchase products online while allowing shop owners to manage their products, orders, and customer information. Secure user authentication, product management, and integrated payment methods ensure an optimal user experience.
 
+I contributed by developing both the **front-end** and **back-end** functionalities. My key contributions include:
+
+1. **Front-end Development**: I built a responsive user interface using **React** where customers can browse products, view details, add items to the cart, and proceed with secure checkout. I also integrated **Redux Toolkit** to manage the application's state efficiently.
+
+2. **Back-end Development**: I implemented the back-end using **Node.js** and **Express**, designing RESTful APIs for managing user authentication (JWT-based), product listings, orders, and inventory management. I used **MongoDB** as the database for storing user, product, and order data.
+
+3. **Payment Integration**: I integrated the **Braintree API** to handle secure online payments, ensuring a smooth and safe checkout experience for users.
+
+4. **Cloudinary Integration**: I incorporated **Cloudinary** for product image storage, allowing shop owners to upload and manage images easily.
+
+5. **Admin Dashboard**: I developed the admin panel for managing products and tracking customer orders, giving shop owners control over their business operations.
+
+6. **Email Notifications**: I set up email notifications using **Nodemailer** to send order confirmations and password reset links to users.
+
+These contributions helped create a robust, scalable platform that small business owners can use to expand their sales and manage their operations effectively.
+
 ## 🌐 Live Demo
 
 Check out the live demo here: [EcoMart - Live Demo](https://ecomartindia.vercel.app/)
@@ -106,7 +122,6 @@ Here are some screenshots that illustrate the journey through the website:
 - **React Icons**: For adding user-friendly icons.
 - **React Toastify**: For displaying alerts and messages.
 - **React Paginate**: For implementing pagination in product views.
-- **React Quill**: For rich text editing in the admin panel.
 
 ### Backend:
 - **Node.js & Express**: For building RESTful APIs and managing server-side logic.
@@ -114,7 +129,6 @@ Here are some screenshots that illustrate the journey through the website:
 - **JWT (JSON Web Token)**: For securing authentication and authorization.
 - **Multer**: For handling file uploads (such as product images).
 - **Cloudinary**: For storing and managing images.
-- **Nodemailer**: To send emails (e.g., for order confirmations or password resets).
 
 ## 📥 Installation
 
