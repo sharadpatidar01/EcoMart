@@ -90,27 +90,48 @@ Backend
 |    |--- View User Profile
 ```
 
-## 📷 Screenshots
+## 📷 Admin Screenshots
+
+1. **Dashboard (Admin)**  
+   ![Admin Dashboard](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/dashboard.png)
+   
+2. **Create Category**  
+   ![CreateCategory](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/CreateCategory.png)
+   
+3. **Create Product**  
+   ![Create Product](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/CreateProduct.png)
+   
+## 📷 User Screenshots
 
 Here are some screenshots that illustrate the journey through the website:
 
 1. **Home Page**  
-   ![Home Page](https://your-url.com/homepage.png)
+   ![Home Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Home.png)
 
 2. **Register Page**  
-   ![Register Page](https://your-url.com/register.png)
+   ![Register Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Register.png)
 
 3. **Login Page**  
-   ![Login Page](https://your-url.com/login.png)
+   ![Login Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Login.png)
 
-4. **Product Page**  
-   ![Product Page](https://your-url.com/product_page.png)
+4. **Search Functionality**  
+   ![Search Functionality](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Search.png)
 
-5. **Checkout Page**  
-   ![Checkout Page](https://your-url.com/checkout.png)
+5. **Product Details Page**  
+   ![Product Details Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/ProductDetails.png)
 
-6. **Dashboard (Admin)**  
-   ![Admin Dashboard](https://your-url.com/admin_dashboard.png)
+6. **Cart and Payment Page**  
+   ![Cart and Payment Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/cart.png)
+   
+7. **Category Selected Product View**  
+   ![Category Selected Product View](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Categories.png)
+   
+8. **Price Filter Page**  
+   ![Price Filter Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/Price_filter.png)
+   
+9. **All Categories Page**  
+   ![All Categories Page](https://github.com/sharadpatidar01/EcoMart/blob/main/Screenshots/AllCategories.png)
+
 
 ## 🛠️ Technologies Used
 
